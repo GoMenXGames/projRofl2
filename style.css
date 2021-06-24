@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    user-select: none;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.letterbox {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.letterbox_right {
+    background-color: #5b00ff;
+}
